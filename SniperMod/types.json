@@ -3,7 +3,7 @@
     "categories": [
       "SniperMod"
     ],
-    "maxStackSize" : "200",
+    "maxStackSize": "50",
     "isSolid": false,
     "needsBase": true,
     "isRotatable": false,
@@ -30,25 +30,35 @@
       ],
       "collidePlayer": false
     },
-    "sideall": "SniperMod.SniperSpot",
+    "sideall": "SniperMod.SniperSpot"
   },
   "SniperMod.Types.SniperShell": {
-    "categories" : [
+    "categories": [
       "SniperMod"
     ],
-    "icon" : "./icons/SniperShell.png",
-    "maxStackSize" : "200",
-    "isPlaceable" : false
+    "icon": "./icons/SniperShell.png",
+    "maxStackSize": "200",
+    "isPlaceable": false
   },
   "SniperMod.Types.SniperAmmo": {
+    "categories": [
+      "SniperMod"
+    ],
+    "icon": "./icons/SniperAmmo.png",
+    "maxStackSize": "200",
+    "isPlaceable": false
+  },
+  "SniperMod.Types.SniperRifle": {
     "categories" : [
       "SniperMod"
     ],
-    "icon" : "./icons/SniperAmmo.png",
+    "icon": "./icons/SniperRifle.png",
     "maxStackSize" : "200",
     "isPlaceable" : false
-  },
- "SniperMod.Types.SniperRifle": {
-
-}
+    },
+  "SniperMod.Types.Head" : {
+    "icon": "./icons/Head.png",
+    "maxStackSize" : "200",
+    "isPlaceable" : false
+  }
 }
