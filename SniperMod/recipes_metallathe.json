@@ -1,0 +1,30 @@
+[
+  {
+	"cooldown": 10.0,
+    "defaultLimit" : 15,
+    "defaultPriority" : -100,
+	"isOptional": true,
+    "name" : "SniperMod.metallathe.SniperShell",
+    "requires" : [
+      { "amount": 3, "type": "brassingot" }
+    ],
+    "requiresScience": "SniperMod.research.SniperResearch",
+    "results" : [
+      { "type": "SniperMod.Types.SniperShell" }
+    ]
+  },
+  {
+  "cooldown": 10.0,
+    "defaultLimit" : 15
+    "defaultPriority" : -100,
+   "isOptional": true,
+    "name" : "SniperMod.metallathe.Head"
+    "requipres" : [
+      { "amount": 1, "type": "steelingot" }
+    ],
+    "requiresScience": "SniperMod.research.SniperResearch",
+    "results" : [
+      { "type": "SniperMod.Types.Head"}
+    ]
+  }
+]
