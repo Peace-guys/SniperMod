@@ -1,0 +1,13 @@
+{
+	"_settings" : {
+		"defaultAlbedo" : "./albedo/default.png",
+		"defaultEmissive" : "./emissiveMaskAlpha/default.png",
+		"defaultHeight" : "./heightSmoothnessSpecularity/default.png",
+		"defaultNormal" : "./normal/default.png",
+		"fileExtension" : ".png",
+		"folderAlbedo" : "./albedo/",
+		"folderEmissive" : "./emissiveMaskAlpha/",
+		"folderHeight" : "./heightSmoothnessSpecularity/",
+		"folderNormal" : "./normal/"
+	}
+}

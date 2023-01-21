@@ -1,0 +1,17 @@
+[
+	{
+		"icon": "./icons/ScienceSniper.png",
+		"key": "SniperMod.research.SniperResearch",
+		"itemRequirements" : [
+			{ "type": "musket", "amount": 10 },
+			{ "type": "monocular", "amount": 5 },
+			{ "type": "musketammo", "amount": 30}
+		],
+		"dependencies": [
+			"pipliz."
+		],
+		"unlocksRecipes": [
+			"SniperMod.metallathe.SniperGuard"
+		]
+	}
+]

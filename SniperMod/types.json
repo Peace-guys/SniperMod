@@ -1,0 +1,54 @@
+{
+  "SniperMod.SniperGuard": {
+    "categories": [
+      "SniperMod"
+    ],
+    "maxStackSize" : "200",
+    "isSolid": false,
+    "needsBase": true,
+    "isRotatable": false,
+    "icon": "./icons/SniperSpot.png",
+    "customData": {
+      "colors": [
+        "#ff0000->#969696"
+      ]
+    },
+    "colliders": {
+      "boxes": [
+        {
+          "max": [
+            0.5,
+            -0.4,
+            0.5
+          ],
+          "min": [
+            -0.5,
+            -0.5,
+            -0.5
+          ]
+        }
+      ],
+      "collidePlayer": false
+    },
+    "sideall": "SniperMod.SniperSpot",
+  },
+  "SniperMod.Types.SniperShell": {
+    "categories" : [
+      "SniperMod"
+    ],
+    "icon" : "./icons/SniperShell.png",
+    "maxStackSize" : "200",
+    "isPlaceable" : false
+  },
+  "SniperMod.Types.SniperAmmo": {
+    "categories" : [
+      "SniperMod"
+    ],
+    "icon" : "./icons/SniperAmmo.png",
+    "maxStackSize" : "200",
+    "isPlaceable" : false
+  },
+ "SniperMod.Types.SniperRifle": {
+
+}
+}
