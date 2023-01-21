@@ -1,0 +1,26 @@
+{
+    "types" : {
+        "SniperMod.Types.SniperShell" : "Brass Casing",
+        "SniperMod.Types.SniperAmmo" : "Precision Rifle Ammo",
+        "SniperMod.SniperGuard" : "Sniper Guard",
+        "SniperMod.Types.SniperRifle" : "Sniper Rifle",
+        "SniperMod.Types.Head" : "Bullet"
+    },
+    "typeuses" : {
+        "SniperMod.Types.Head" : "Tip of an ammo",
+        "SniperMod.Types.SniperShell" : "Empty brass ammo casing which can be loaded for use in firearms",
+        "SniperMod.Types.SniperAmmo" : "Specially hand-loaded rifle ammo for long-range shooting",
+        "SniperMod.SniperGuard" : "Precision marksmen specialized in taking out dangerous enemies from far far away",
+        "SniperMod.Types.SniperRifle" : "Precise Rifle with a tweaked monocular on top for long-range"
+    },
+    "sentences": {
+        "SniperMod": {
+            "research": {
+                "SniperMod.research.SniperResearch" : {
+                    "name" : "Long-Range Marksmanship",
+                    "description" : "By researching new ammo type and precise firearm, the colony can now recruit Snipers, a long range, high damage, slow firerate specialist who specialize in taking out enemies from afar."
+                }
+            }
+        }
+    }
+}
