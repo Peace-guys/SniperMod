@@ -8,10 +8,13 @@
 			{ "type": "musketammo", "amount": 30}
 		],
 		"dependencies": [
-			"pipliz."
+			"pipliz.grenadelauncher"
 		],
 		"unlocksRecipes": [
-			"SniperMod.metallathe.SniperGuard"
+			"SniperMod.gunsmith.SniperGuard",
+			"SniperMod.metallathe.SniperShell",
+			"SniperMod.metallathe.Head",
+			"SniperMod.gunsmith.SniperAmmo"
 		]
 	}
 ]
